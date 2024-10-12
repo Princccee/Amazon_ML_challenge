@@ -22,8 +22,7 @@ def predictor(image_link, category_id, entity_name):
 
 
 if __name__ == "__main__":
-    DATASET_FOLDER = '/Users/princekumar/Machine Learning/Pyhton Programming/Amazon_ML/Dataset' # Replace with the test.csv file path.
-    # DATASET_FOLDER = './Dataset/test.csv'  # Replace with the test.csv file path.
+    DATASET_FOLDER = './Dataset/test.csv'  # Replace with the test.csv file path.
 
     test = load_test_data(DATASET_FOLDER)
 
